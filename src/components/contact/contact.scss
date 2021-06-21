@@ -1,0 +1,29 @@
+.contact{
+    background-color:white;
+     display: flex;
+    
+    .left{
+         flex:0.6;
+             .bar {
+             width: 90%;
+             margin: 25px;
+             margin-left: 45px;
+             margin-right: 10px;
+         }
+    }
+
+    .rigth{
+        flex:0.4;
+        .expbar{
+          width: 80%;
+          border: 0.7px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+          transition: 0.9s;
+          border-radius: 80px;
+          padding: 40px;
+          background:#d3d3d3;
+        }
+
+
+    }
+}
